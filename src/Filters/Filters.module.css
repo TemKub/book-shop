@@ -1,0 +1,14 @@
+.filters {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.filters input {
+    max-width: 400px;
+}
+
+.filters > div {
+    min-width: 200px;
+}

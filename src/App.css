@@ -1,0 +1,37 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#root > div > p {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px black;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 20px;
+}
+
+.loading p {
+  color: #f1e4ce;
+  font-size: 22px;
+  font-weight: bold;
+}

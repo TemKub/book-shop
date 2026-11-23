@@ -1,0 +1,19 @@
+.bookList {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+@media (max-width: 950px) {
+    .bookList {
+        grid-template-columns: repeat(2, 280px);
+    }
+}
+
+@media (max-width: 650px) {
+    .bookList {
+        grid-template-columns: 280px;
+    }
+}

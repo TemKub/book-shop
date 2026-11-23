@@ -1,0 +1,48 @@
+.card {
+    width: 280px;
+    text-align: left;
+    background-color: #e8dcc8;
+    border: 1px solid #a68b6d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card :global(.ant-card-head) {
+    background-color: #d5bea0;
+    border-bottom: 1px solid #a68b6d;
+}
+
+.card :global(.ant-card-head-title) {
+    color: #33251c;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #33251c;
+}
+
+.card :global(.ant-btn-primary) {
+    background-color: #783d32;
+    border-color: #783d32;
+}
+
+.card :global(.ant-btn-primary:hover) {
+    background-color: #592a23 !important;
+    border-color: #592a23 !important;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+.card :global(.ant-card-head-title) {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
